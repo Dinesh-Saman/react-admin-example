@@ -12,7 +12,7 @@ function App() {
   return (
     <Admin dataProvider={restProvider('http://localhost:3000')}>
       <Resource
-        name='posts'
+        name='vehicle_Management'
         list={PostList}
         create={PostCreate}
         edit={PostEdit}

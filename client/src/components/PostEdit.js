@@ -1,14 +1,24 @@
 import React from 'react'
-import { Edit, SimpleForm, TextInput, DateInput } from 'react-admin'
+import { Edit, SimpleForm, TextInput,DateInput} from 'react-admin'
 
 const PostEdit = (props) => {
   return (
-    <Edit title='Edit Post' {...props}>
+    <Edit title='Edit Vehicle' {...props}>
       <SimpleForm>
         <TextInput disabled source='id' />
-        <TextInput source='title' />
-        <TextInput multiline source='body' />
-        <DateInput label='Published' source='publishedAt' />
+        <TextInput source='vehicleType' />
+        <TextInput source='vehicleMake' />
+        <TextInput source='vehicleModel' />
+        <TextInput source='vehicleNo' />
+        <TextInput source='ownerName' />
+        <DateInput label={'purchased Date'} source='purchasedDate'/>
+        <DateInput label={'registered Date'} source='registeredDate'/>
+        <TextInput source='manufactureCountry' />
+        <TextInput source='manufactureDate' />
+        <TextInput source='engineNo' />
+        <TextInput source='chassiNo' />
+        <DateInput label={'insurance Date'} source='insuranceDate'/>
+        <TextInput source='vehicleWeight' />
       </SimpleForm>
     </Edit>
   )
