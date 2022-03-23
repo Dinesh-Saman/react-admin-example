@@ -14,7 +14,6 @@ const PostCreate = (props) => {
         <TextInput source='licenNo' />
         <DateInput source='licenValidity' />
         <DateInput label={'licenIssueDate'} source='licenIssueDate'/>
-        //
       </SimpleForm>
     </Create>
   )
