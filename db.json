@@ -2,10 +2,10 @@
   "vehicle_Management": [
     {
       "id": "1",
-      "vehicleType": "PostOne",
+      "vehicleType": "PostOne12",
       "vehicleMake": "Mitsubishi",
-      "vehicleModel": "Thisrr",
-      "vehicleNo": "258",
+      "vehicleModel": "Thisrr11",
+      "vehicleNo": "258111",
       "ownerName": "Dinesh bandara",
       "manufactureCountry": "Japan",
       "manufactureDate": "2020",
