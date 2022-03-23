@@ -25,5 +25,39 @@
       "vehicleNo": "258",
       "ownerName": "Dinesh bandara"
     }
+  ],
+  "driver_Management": [
+    {
+      "id": "1",
+      "name": "John Smith",
+      "address": "john@example.com",
+      "phoneNo": "0705736675",
+      "district": "Dinesh bandara",
+      "province": "North Central",
+      "DOB": "1999-06-07",
+      "licenNo": "L232132",
+      "licenValidity": "john@example.com",
+      "licenIssueDate": "258",
+      "Name": "Dinesh saman bandara.",
+      "Address": "No 94,"
+    }
+  ],
+  "fuel_Management": [
+    {
+      "id": "1",
+      "last_fuel_Date": "02/02/2022",
+      "fuelType": "Diesel",
+      "vehicleType": "Car",
+      "vehicleMake": "Nissan",
+      "vehicleModel": "Neon",
+      "quentity": "400",
+      "amount": "8500",
+      "oldReading": "7895",
+      "newReading": "8514",
+      "usage": "195",
+      "driverName": "No 94,",
+      "totalCapacity": "8000.",
+      "fuelCost": "No 94,"
+    }
   ]
 }
